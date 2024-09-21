@@ -1,12 +1,16 @@
 @media screen and (max-width: 1400px) {
     #profile{
-        height: 83vh;
+        height: 40vh;
         margin-bottom: 6rem;
     }
 
     .about-containers{
         flex-wrap: wrap;
     }
+
+   #contact{
+    height: 20vh;
+   }
 }
 
 @media screen and (max-width: 1200px) {
@@ -47,8 +51,19 @@
         margin: 0 auto 2rem;
     }
 
+    .section__pic-container-2{
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+        justify-content: center;
+    }
+
     .about-containers{
         margin-top: 0;
+    }
+
+    .section__text{
+        margin-top: 250px;
     }
 }
 
@@ -58,7 +73,7 @@
         height: 40vh;
     }
     #profile{
-        height: 83vh;
+        height: 100vh;
         margin-bottom: 0;
     }
     article{
